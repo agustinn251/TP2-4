@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comagustinn251.httpsgithub.calculadora.Calculadora">
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:text="@string/_00"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="310dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/sumar"
+        android:layout_width="95dp"
+        android:layout_height="80dp"
+        android:hint="@string/btn_sumar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/restar"
+        android:layout_width="95dp"
+        android:layout_height="80dp"
+        android:hint="@string/btn_restar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+    android:id="@+id/mul"
+    android:layout_width="95dp"
+    android:layout_height="80dp"
+    android:hint="@string/btn_multiplicar"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="290dp"
+    tools:ignore="MissingConstraints" />
+
+    <Button
+    android:id="@+id/div"
+    android:layout_width="95dp"
+    android:layout_height="80dp"
+    android:hint="@string/btn_dividir"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="377dp"
+    tools:ignore="MissingConstraints" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

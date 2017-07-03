@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comagustinn251.httpsgithub.calculadora.MainActivity">
+
+    <Button
+        android:id="@+id/sumar"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:text="Sumar"
+        tools:layout_editor_absoluteY="122dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/restar"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:text="Restar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="176dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:text="Multiplicar"
+        tools:layout_editor_absoluteY="232dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+    <Button
+        android:id="@+id/div"
+        android:layout_width="183dp"
+        android:layout_height="46dp"
+        android:text="Dividir"
+        tools:layout_editor_absoluteY="286dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/resultados"
+        android:layout_width="170dp"
+        android:layout_height="372dp"
+        android:text="00"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="122dp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="351dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints"
+        android:hint="@string/ingrese_el_primer_numero"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="73dp"
+        tools:ignore="MissingConstraints"
+        android:hint="@string/ingrese_el_segundo_numero"/>
+</android.support.constraint.ConstraintLayout>
